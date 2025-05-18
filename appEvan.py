@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Je vais chier dans mon froc"
+    return "Heureusement que chatgpt existe ^^"
 
 if __name__ == "__main__":
     app.run(debug=True)
